@@ -13,7 +13,6 @@ class ComprobanteController extends ActiveController
 {
     public $modelClass = 'app\modules\apiv1\models\Comprobante';
   
-    
  public function behaviors()
     {
         $behaviors = parent::behaviors();
